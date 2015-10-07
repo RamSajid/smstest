@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<h2>Send SMS</h2>
+
+<form method="post" action="/Home/sendsms">
+    Message : <input type="text" name="t1" /><br /><br />
+    Number : <input type="text" name="t2" />
+    <input type="submit" value="send" />
+</form>
+
